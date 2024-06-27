@@ -1,0 +1,98 @@
+.introducao-bg {
+  background: var(--cor-p1) url("../../img/dec/bottom-left.svg") no-repeat
+    bottom 40px left 20px;
+  box-shadow: inset 0 -120px var(--cor-11);
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
+}
+
+.introducao img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.introducao-conteudo {
+  align-self: end;
+  padding-bottom: 200px;
+}
+
+.introducao h1 {
+  margin-bottom: 32px;
+}
+
+.introducao p {
+  margin-bottom: 20px;
+}
+
+.introducao span {
+  font-weight: 10;
+}
+
+.idk-lista {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background: var(--cor-11)
+}
+
+#home .idk-lista {
+  padding-top: 60px;
+}
+
+.idk-lista h2 {
+  margin-bottom: 20px;
+}
+
+.idk-lista ul {
+  padding: 20px 0px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+#home .idk-lista ul {
+  max-width: 1400px;
+  padding: 20px;
+}
+
+.idk-lista li {
+  flex: 1;
+  min-width: 280px;
+}
+
+.idk-lista a {
+  display: block;
+}
+
+.idk-lista img {
+  margin-bottom: 16px;
+}
+
+.idk-lista h3 {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.idk-lista h3::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  margin-right: 8px;
+  height: 8px;
+  background: #ffbb00;
+  transition: width 0.2s;
+}
+
+.idk-lista a:hover h3::before {
+  width: 24px;
+}
+
+.idk-lista li span {
+  padding-left: 20px;
+}

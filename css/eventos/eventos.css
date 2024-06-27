@@ -1,0 +1,18 @@
+.eventos {
+  background-color: var(--cor-1);
+}
+
+.eventos-titulo {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.eventos-fotos {
+  display: flex;
+  gap: 135px;
+  padding-top: 40px;
+}
+
+.eventos-fotos:last-child {
+  padding-bottom: 140px;
+}

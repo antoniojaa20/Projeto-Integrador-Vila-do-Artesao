@@ -1,0 +1,20 @@
+.artesoes {
+  background-color: var(--cor-11);
+}
+
+.artesoes-titulo {
+  padding-top: 140px;
+  text-align: center;
+}
+
+.artesoes-fotos {
+  display: flex;
+  gap: 135px;
+  padding-top: 40px;
+}
+
+.artesoes-fotos:last-child {
+  padding-bottom: 140px;
+
+}
+
